@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.heading
+{
+    height: 100vh;
+
+}
+.video-background
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto 1px;
+}
+.logo{
+    height: 80px;
+    width: auto;
+    /* float: left; */
+    margin-top: 15px;
+}
+.main-nav{
+    float: right;
+    margin-top: 50px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200px;
+    font-size: 90%;
+}
+.main-nav li a:hover
+{
+    border-bottom: 5px solid #bf55ec;
+}
+
+.welcome-msg
+{
+    position: relative;
+    text-align: center;
+    font-family: 'Flamenco', cursive;
+    color: #000;
+    top: 50%;
+    background-color: #ffffff;
+    border: 2px solid black;
+    margin: 30px;
+    opacity: 1s;
+    
+}
+.welcome-msg h1
+{
+    font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+.welcome-msg p
+{
+    font-size: 1em;
+    font-weight: 1em;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin: 20px;
+    
+
+}
+.btn
+{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    border: 1px solid coral;
+   
+}
+.btn-subscribe
+{
+    background: coral;
+}
+.btn-comment:hover{
+    background:  coral;
+    transition: .5s;
+}

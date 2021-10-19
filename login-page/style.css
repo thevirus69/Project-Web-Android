@@ -1,0 +1,79 @@
+*{
+
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.full-screen-container{
+    background-image: url("login.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container{
+    background-color: hsla(201, 100%, 6%, 0.6);
+    padding: 50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+}
+.login-title{
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: normal;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+.input-group input{
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    padding: .1em .25em;
+    background-color: hsla(201, 100%, 91%, 0.3);
+    border: 1px solid hsl(201, 100%, 6%);
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+}
+
+.input-group input:focus{
+    border: 1px solid hsl(201,100%,58%);  
+}
+.login-button{
+    background-color: hsla(201, 100%, 58%, 0.1);
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid hsl(201,100%,58%);
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: hsla(201, 100%, 58%, 0.3);
+}
+
+.login-button:focus{
+    background-color: hsla(201, 100%, 58%, 0.5);
+}

@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Quick Launcher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="popup.js"></script>
+    <style>
+        html,body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+            min-height: 180px;
+            width: 300px;
+            /* background-color: #333; */
+        }
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            color: rgb(216, 112, 207);
+            margin: 0;
+        }
+
+        a:link, a:visited{
+            color: black;
+            outline: 0;
+            text-decoration: none;
+        }
+
+        img{
+            width: 30px;
+        }
+
+        .header{
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+
+        .content{
+            padding: 0 22px;
+            color: gray;
+        }
+
+        .icons{
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+        }
+
+        .logo{
+            padding: 16px;
+        }
+
+        .logo-icon{
+            vertical-align: text-bottom;
+            margin-right: 12px;
+        }
+
+        .version{
+            color: gray;
+            font-size: 20px;
+        }
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 22px;
+        }
+
+        .fa-youtube-play{
+            font-size: 40px;
+            color: #FF0000;
+        }
+        .fa-instagram{
+            font-size: 40px;
+            color: #833AB4;
+        }
+        .fa-facebook{
+            font-size: 40px;
+            color: #4267B2;
+        }
+        .fa-linkedin{
+            font-size: 40px;
+            color:  #2867b2;
+        }
+        .fa-github{
+            font-size: 40px;
+            color: #333;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+        <h1 class="logo">
+            <img src="/Extension Project/logos/logo.png" alt="" class="logo-icon">
+            Quick Launcher 
+            <span class="version">(v 1.0)</span>
+        </h1>
+    </div>
+    <div class="content">
+        <p>Easily Access Social Media with Just One Click!</p>
+    </div>
+    <div class="icons">
+        <div class="flex-container">   
+            <div class="flex">
+                <a href="http://youtube.com" target="_blank" >
+                    <i class="fa fa-youtube-play"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="http://instagram.com" target="_blank" >
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="http://facebook.com" target="_blank" >
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="http://linkedin.com" target="_blank" >
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div> 
+            <div class="flex">
+                <a href="http://github.com" target="_blank" >
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>  
+               
+        </div>
+        
+    </div>
+  </body>
+</html>

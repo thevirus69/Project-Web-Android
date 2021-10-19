@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: #426696;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+h2,p{
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+h3{
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+
+}
+main{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to top right,rgba(69, 180, 224),rgb(135, 206, 235));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background: white;
+    min-height: 80vh;
+    width: 80%;
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgb(255, 255, 255,0.3));
+    border-radius: 2rem;
+    z-index: 2;
+   backdrop-filter: blur(2rem);
+   display: flex;
+}
+.circle1,.circle2{
+    background: white;
+    background: linear-gradient(to right bottom,rgb(255, 250, 250,0.8),rgb(240, 255, 240,0.3));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+}
+.circle1{
+   top: -5%; 
+   right: 5%;
+   border-radius: 50%;
+}
+.circle2{
+bottom: -25%;
+left: 5%;
+border-radius: 50%;
+}
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.twitch{
+    width: 30px;
+    height: 30px;
+}
+.subs{
+    width: 100px;
+    height: 100px;
+}
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgb(255, 255, 255,0.3));
+    border-radius: 2rem;  
+}
+.link{
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+.games{
+    flex: 2;
+}
+.link h2{
+    padding: 0rem 2rem;
+}
+.pro{
+    background: linear-gradient(to top right,rgba(69, 180, 224),rgb(135, 206, 235));
+    border-radius: 2rem;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    top: -1%;
+}
+.pro img{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.pro h2{
+    width: 40%;
+    color: white;
+    font-weight: 600;
+}
+
+/*Games*/
+
+.status{
+    margin-bottom: 3rem;
+}
+.status input{
+    background: linear-gradient(to right bottom,rgba(255, 255, 255, 0.7),rgb(255, 255, 255,0.3));
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.games{
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    background: linear-gradient(to left top,rgba(255, 255, 255,0.8),rgba(255,255,255,0.5));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.212);
+    justify-content: space-between;
+}
+.progress{
+    background: linear-gradient(to top right,rgba(69, 180, 224),rgb(135, 206, 235));
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(236,236,236);
+    position: absolute;
+    left: 60%; 
+}
+ .percentage{
+    font-weight: bold;
+    background: linear-gradient(to top right,rgba(69, 180, 224),rgb(135, 206, 235));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 

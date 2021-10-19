@@ -1,0 +1,308 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+    font-family: 'Flamenco', cursive;
+}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section 
+{
+    display: block;
+}
+ol,ul
+{
+    list-style:none;margin:0px;padding:0px;
+}
+blockquote,q
+{
+    quotes:none;
+}
+blockquote:before,blockquote:after,q:before,q:after
+{
+    content:'';
+    content:none;
+}
+table
+{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/*--start editing from here--*/
+a
+{
+    text-decoration:none;
+}
+.txt-rt
+{
+    text-align:right;
+}
+/* text align right */
+.txt-lt
+{
+    text-align:left;
+}
+/* text align left */
+.txt-center
+{
+    text-align:center;
+}
+/* text align center */
+.float-rt
+{
+    float:right;
+}
+/* float right */
+.float-lt
+{
+    float:left;
+}
+/* float left */
+.clear
+{
+    clear:both;
+}
+/* clear float */
+.pos-relative
+{
+    position:relative;
+}
+/* Position Relative */
+.pos-absolute
+{
+    position:absolute;
+}
+/* Position Absolute */
+.vertical-base
+{
+    vertical-align:baseline;
+}
+/* vertical align baseline */
+.vertical-top
+{
+    vertical-align:top;
+}
+/* vertical align top */
+nav.vertical ul li
+{
+    display:block;
+}
+/* vertical menu */
+nav.horizontal ul li
+{
+    display: inline-block;
+}
+/* horizontal menu */
+img
+{
+    max-width:100%;
+}
+/*--end reset--*/
+body
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	background: url(images/background1.jpg)no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-attachment:fixed;
+}
+.bg-agile
+{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    padding: 3em 3em 3.5em;
+    background: rgba(0, 0, 0, 0.51);
+}
+h1
+{
+    font-size: 54px;
+    font-weight: 100!important;
+    text-transform: capitalize;
+    color: #fff;
+    word-spacing: 11px;
+    letter-spacing: 5px;
+    margin: 2.5em 0 1.5em;
+    text-align: center;
+}
+h1 span
+{
+    color: #ea2e3e!important;
+    border: 7px solid rgba(1, 60, 166, 0.86);
+    padding: 0 7px 0 12px;
+}
+.book-appointment h2
+{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+/*-- reservation --*/
+.book-form input[type="text"], .book-form input[type="email"], select#country, select#country1, input#datepicker
+{
+    width: 86.8%!important;
+    color: #fff;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    padding: 10px 10px 10px 50px;
+    outline: none;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.47);
+	font-family: 'Flamenco', cursive;
+}
+.phone_email, .span1_of_1
+{
+    margin-bottom: 1.5em;
+    width: 49%;
+    float: left;
+}
+.phone_email1
+{
+    float: right;
+}
+select#country,select#country1
+{
+    width: 100%!important;
+}
+select#country option, select#country1 option
+{
+	background:#000;
+}
+.book-form .form-text,.book_date,.section_room
+{
+    position: relative;
+} 
+.book-form i
+{
+    position: absolute;
+    color: #f5eeee;
+    font-size: 14px;
+    top: 7px;
+    left: 0px;
+    width: 34px;
+    line-height: 25px;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.47);
+}
+.book-form input[type="submit"]
+{
+    text-transform: capitalize;
+    background: rgba(16, 67, 163, 0.13);
+    color: #ffffff;
+    padding: 0.7em 0em;
+    border: none;
+    border: 2px solid #ea2e3e;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 1.5em;
+       width: 27%;
+    float: right;
+    outline: none;
+    letter-spacing: 8px;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    cursor: pointer;
+}
+.book-form input[type="submit"]:hover
+{
+    background: #ea2e3e;
+    border-color: #ea2e3e;
+    color: #fff;
+}
+.book-form input[type="reset"]
+{
+    text-transform: capitalize;
+    background: rgba(16, 67, 163, 0.13);
+    color: #ffffff;
+    padding: 0.7em 0em;
+    border: none;
+    border: 2px solid #ea2e3e;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 1.5em;
+       width: 27%;
+    float: left;
+    outline: none;
+    letter-spacing: 8px;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    cursor: pointer;
+}
+.book-form input[type="reset"]:hover
+{
+    background: #ea2e3e;
+    border-color: #ea2e3e;
+    color: #fff;
+}
+.book-form ::-webkit-input-placeholder
+{
+	color:#fff !important;
+}
+.book-form :-moz-placeholder
+{ /* Firefox 18- */
+	color:#fff !important; 
+}
+.book-form ::-moz-placeholder
+{  /* Firefox 19+ */
+	color:#fff !important;
+}
+.book-form :-ms-input-placeholder
+{  
+	color:#fff !important;
+}
+.agile-reservation-grid
+{
+    background: #f4f4f4;
+    padding: 2em;
+}
+.book-form
+{
+       margin: 0em 0;
+	   width:100%
+}
+
+/*-- //reservation --*/
+
+.row{
+    max-width: 1180px;
+    margin: 0 auto 1px;
+}
+.logo{
+    height: 80px;
+    width: auto;
+    /* float: left; */
+    margin-top: 15px;
+}
+.main-nav{
+    float: right;
+    margin-top: 50px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 0;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200px;
+    font-size: 90%;
+}
+.main-nav li a:hover
+{
+    border-bottom: 5px solid #bf55ec;
+}

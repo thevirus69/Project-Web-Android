@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+  
+    "name": "Quick Launcher Plugin",
+    "description": "This extension will quickly launch social media sites",
+    "version": "1.0",
+    "icons" : {"128" :"logo128.png"},
+
+    "action": {  
+    "default_icon": "logo.png",
+     "default_popup": "popup.html" 
+    },
+    "permissions": ["activeTab"]
+  }

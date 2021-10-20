@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+   background-color: rgba(0, 0,0,0.4);
+    padding: 60px 40px;
+   margin: 10px;
+   border-radius: 2px;
+   text-align: center;
+}
+input[type="text"]{
+    margin: 20px 0;
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 4px;
+    width: 30ch;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: white;
+    outline: 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 100;
+
+}
+button:hover{
+    background-color: grey;
+    color: white;
+}
+button:active{
+    background-color: black;
+}
+body{
+    background: url('Slanted-Gradient.svg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

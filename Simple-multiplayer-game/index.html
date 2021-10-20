@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Dice Game</title>
+  </head>
+  <body>
+    <header>
+      <div class="instructions-btn">
+        <button class="btn btn--instructions">How to play</button>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div id="simple-modal" class="modal">
+          <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <h2>HOW TO PLAY</h2>
+
+            <p class="main-content">
+              1. There will be two players. <br />
+              2. You can roll the dice and all the numbers you get on the dice
+              will be added to the current score below. <br />
+              3. But if the dice shows 1, then current score will be reset to
+              zero and you will lose the points and the second player gets his
+              chance. <br />
+              4. You can hold the dice at any moment and the score will be added
+              to your main score and chance goes to your opponent.<br />
+              5. The first player to reach 100 points, will be the winner.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="left-part player player--0 player--active">
+        <h1 class="name" id="name--0">PLAYER 1</h1>
+        <p class="score" id="score--0">42</p>
+        <div class="current">
+          <p class="current-label">CURRENT</p>
+          <p class="current-score" id="current-score--0">23</p>
+        </div>
+      </section>
+
+      <img src="./dice5.png" alt="dice5" class="dice" />
+      <button class="btn btn--new">NEW GAME</button>
+      <button class="btn btn--roll">ROLL DICE</button>
+      <button class="btn btn--hold">HOLD</button>
+
+      <section class="right-part player player--1">
+        <h1 class="name" id="name--1">PLAYER 2</h1>
+        <p class="score" id="score--1">42</p>
+        <div class="current">
+          <p class="current-label">CURRENT</p>
+          <p class="current-score" id="current-score--1">23</p>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

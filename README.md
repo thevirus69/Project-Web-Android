@@ -61,11 +61,13 @@
 # Add Categories :)
 In this Format
 # ( Upload Project in Any Languages )
-#Your-Project-Name : Your Github-username
 
 # Web Project 
 
-# Android Projects
+# Android Project
+
+# Python Project
+Motion Detector : Shaun-shaju
 
 # Games
 FizzBuzz : 07Shivamsahu
